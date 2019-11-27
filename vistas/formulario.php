@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/formulario.css">
     <link rel="stylesheet" href="../css/terminos_condiciones.css">
+
     <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -111,8 +112,17 @@
                             <button type="submit" class="btn btn-conect"><?= $lang['btn_continuar'];?></button>
                         </div>                           
                     </form>
+                    <div class="footer">
+                        <div class="page-footer font-small">
+                            <!-- Copyright -->
+                            <div class="footer-copyright text-center py-3">
+                                Powered by <a href="https://mdbootstrap.com/education/bootstrap/"> IPwork</a> (C) Copyright 2019
+                            </div>
+                            <!-- Copyright -->
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div>                        
         </div>
     </div> 
     
